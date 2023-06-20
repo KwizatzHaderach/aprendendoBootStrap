@@ -7,3 +7,15 @@
 .btn {
     margin-bottom: 56px;
 }
+
+body {
+    padding: 80px;
+}
+
+#botao-preco {
+    margin-top:50px;
+}
+
+#preco p {
+    width: 300px;
+}

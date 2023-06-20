@@ -99,15 +99,29 @@
                 <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2"> <!--collapse faz com que expanda e contraia-->
                     pergunta2
                 </button>
-            </div>
-            <div id="resposta2" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    Resposta da pergunta2
+                <div id="resposta2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Resposta da pergunta2
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+        <!--Criando um botão com collapse-->
+
+        <div>
+            <button id="botao-preco" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#preco">
+                Ver preço
+            </button>
+            <div class="collapse collapse-horizontal" id="preco"> 
+                <!--Collapse-horizontal faz com que comece da esquerda para direita. Só collapse começa de cima pra baixo
+                collapse collapse-->
+                <p>
+                    3x de R$ 300,00
+                </p>
+            </div>
+        </div>
 
 
 
