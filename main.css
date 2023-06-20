@@ -19,3 +19,11 @@ body {
 #preco p {
     width: 300px;
 }
+
+time {
+    display: block;
+}
+
+.post {
+    margin-bottom: 24px;
+}
